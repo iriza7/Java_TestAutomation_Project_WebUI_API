@@ -13,5 +13,5 @@ Java 8, Selenium Webdriver, TestNG, Maven, XML, Git
 4)	Clone locally the repository and open the project using Eclipse IDE
 5)  Run mvn install
 6)  Download Google Chrome Driver 2.33 from https://www.seleniumhq.org/download/ and save it locally by path D:\SeleniumDr\chromedriver_win32
-7)	Run the Test suite webui-tests.xml from Eclipse IDE by Run As> TestNG Suite
+7)	For run both UI and API tests Run the Test suite regression.xml from Eclipse IDE by Run As> TestNG Suite
 8)  Reports of the test result are generated on the directory /test-output
