@@ -13,9 +13,9 @@ public class UITest1LoadPage {
 	Base base = new Base();
 	WebDriver driver = base.getDriver();
 
-	// Test1 - A user can load https://www.adidas.fi
+	// UI Test1 - A user can load https://www.adidas.fi
 	@Test
-	public void test01LoadPage() {
+	public void testUI01LoadPage() {
 		driver.get("https://www.adidas.fi/");
 		HomePage homepage = new HomePage(driver);
 

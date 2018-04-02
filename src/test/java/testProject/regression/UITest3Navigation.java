@@ -16,10 +16,10 @@ public class UITest3Navigation {
 	WebDriver driver = base.getDriver();
 	HomePage homepage;
 
-	// Test3 - The user can navigate through the menus
+	// UI Test3 - The user can navigate through the menus
 	// (hover on Women, click on Shoes / Football)
 	@Test
-	public void test03MenuNavigation() {
+	public void testUI03MenuNavigation() {
 		driver.get("https://www.adidas.fi/");
 		homepage = new HomePage(driver);
 		homepage.goMenuWomen();		

@@ -13,10 +13,10 @@ public class UITest2SelectHomeLocation {
 	Base base = new Base();
 	WebDriver driver = base.getDriver();
 
-	// Test2 - The user can select ADIDAS.FI as a location
+	// UI Test2 - The user can select ADIDAS.FI as a location
 	// if prompted to select her location
 	@Test
-	public void test02SelectHomeLocation() {
+	public void testUI02SelectHomeLocation() {
 		driver.get("https://www.adidas.fi/order-tracker");
 		HomePage homepage = new HomePage(driver);
 		homepage.clickLogo();
