@@ -17,6 +17,7 @@ public class UITest1LoadPage {
 	@Test
 	public void testUI01LoadPage() {
 		driver.get("https://www.adidas.fi/");
+		driver.manage().window().maximize();
 		HomePage homepage = new HomePage(driver);
 
 		assertTrue(homepage.getMenu().contains("WOMEN"), "Page is not loaded");
