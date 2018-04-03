@@ -18,6 +18,7 @@ public class UITest2SelectHomeLocation {
 	@Test
 	public void testUI02SelectHomeLocation() {
 		driver.get("https://www.adidas.fi/order-tracker");
+		driver.manage().window().maximize();
 		HomePage homepage = new HomePage(driver);
 		homepage.clickLogo();
 
