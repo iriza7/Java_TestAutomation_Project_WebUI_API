@@ -21,6 +21,7 @@ public class UITest3Navigation {
 	@Test
 	public void testUI03MenuNavigation() {
 		driver.get("https://www.adidas.fi/");
+		driver.manage().window().maximize();
 		homepage = new HomePage(driver);
 		homepage.goMenuWomen();		
 		
@@ -30,7 +31,7 @@ public class UITest3Navigation {
 
 	// Test4 - Then user can select the second shown model and navigate to the
 	// details page
-	@Test(dependsOnMethods = { "test03MenuNavigation" })
+	@Test(dependsOnMethods = { "testUI03MenuNavigation" })
 	public void test04DetailsPage() {
 		ItemsPage itemsPage = new ItemsPage(driver);
 		DetailsPage detailsPage = itemsPage.clickMenuItem();
