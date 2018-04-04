@@ -21,7 +21,8 @@ Java 8, Selenium Webdriver, TestNG, Apache Maven, XML, Jersey, Git
 * For UI tests > regression-web-ui-tests.xml 
 * For API tests > regression-api-tests.xml
 * For run both UI and API tests > regression.xml
-8)  Reports of the test result are generated on the directory /test-output/emailable-report.htm
+8) For Run tests in other browsers - download the driver for it and change the getDriver method in src/main/java/testProject/driver/Base.java
+9)  Reports of the test result are generated on the directory /test-output/emailable-report.htm
 
 ![image](https://user-images.githubusercontent.com/6391522/38243925-b7df8828-3741-11e8-989d-f231a101c71e.png)
 
