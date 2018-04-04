@@ -12,8 +12,8 @@ Java 8, Selenium Webdriver, TestNG, Apache Maven, XML, Jersey, Git
 ## To Run the Test Automation Project Locally:
 
 1)	Install Java 8 and Apache Maven
-2)	Install Eclipse IDE
-3)	Set environment variables JAVA_HOME, M2_HOME and Path, in the Windows environment
+2)	Set environment variables JAVA_HOME, M2_HOME and Path, in the Windows environment
+3)	Install Eclipse IDE and plugin "TestNG for Eclipse"
 4)	Clone locally the repository and open the project using Eclipse IDE
 5)  Run mvn install
 6)  Download Google Chrome Driver 2.33 from https://www.seleniumhq.org/download/ and save it locally by path D:\SeleniumDr\chromedriver_win32
